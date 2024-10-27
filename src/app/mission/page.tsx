@@ -7,14 +7,14 @@ export default function Mission() {
         <div className="flex flex-col items-start max-w-2xl mx-auto h-full justify-between">
           <h1 className="text-4xl font-bold tracking-widest mb-6">Mission Statement</h1>
           <div className="flex flex-col gap-4 sm:my-4 tracking-wide">
-            <p className="text-sm sm:text-lg leading-relaxed">
+            <p className="text-md sm:text-lg leading-relaxed">
               Our mission is to transform the ticketing industry by harnessing
               the power of the Solana blockchain to create a seamless, low-cost,
               and high-performance ticketing platform. Our goal is to directly
               connect event organizers with their audiences, cutting out the
               middlemen, reducing fees, and delivering real-time settlements.
             </p>
-            <p className="text-sm sm:text-lg leading-relaxed">
+            <p className="text-md sm:text-lg leading-relaxed">
               <a
                 href="https://www.globenewswire.com/news-release/2024/07/18/2915545/0/en/Online-Event-Ticketing-Market-Size-is-Projected-to-Reach-US-107-1-Billion-by-2032-Driven-by-Convenience-and-Mobile-Ticketing-Research-by-SNS-Insider.html"
                 className="text-blue-500 hover:underline"
@@ -29,7 +29,7 @@ export default function Mission() {
               buying tickets, as well as the repercussions on the artists and
               organizers behind the scenes.
             </p>
-            <p className="text-sm sm:text-lg leading-relaxed">
+            <p className="text-md sm:text-lg leading-relaxed">
               We&apos;re focused on empowering small-scale, DIY music
               events—bringing faster payouts to performers, instant
               confirmations to fans, and easy, secure ticket management for
