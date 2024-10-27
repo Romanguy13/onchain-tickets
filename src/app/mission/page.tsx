@@ -8,7 +8,7 @@ export default function Mission() {
           <h1 className="text-4xl font-bold tracking-widest mb-6 text-gray-900">
             Mission Statement
           </h1>
-          <div className="flex flex-col gap-6 sm:my-4 tracking-widest text-gray-800">
+          <div className="flex flex-col gap-8 sm:my-4 tracking-widest text-gray-800">
             <p className="text-md leading-relaxed">
               We want to connect event organizers with their audience directly,
               minus the headache associated with traditional ticketing
@@ -17,17 +17,10 @@ export default function Mission() {
               the fees and delays.
             </p>
             <p className="text-md leading-relaxed">
-              <a
-                href="https://www.globenewswire.com/news-release/2024/07/18/2915545/0/en/Online-Event-Ticketing-Market-Size-is-Projected-to-Reach-US-107-1-Billion-by-2032-Driven-by-Convenience-and-Mobile-Ticketing-Research-by-SNS-Insider.html"
-                className="text-blue-500 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                The online ticketing industry is worth billions
-              </a>
-              , but plagued with high service fees and slow payouts. We aim to
-              change that by empowering DIY music events with fast and and
-              low-cost ticketing solutions.
+              The online ticketing industry is worth billions, but plagued with
+              high service fees and slow payouts. We aim to change that by
+              empowering DIY music events with fast and and low-cost ticketing
+              solutions.
             </p>
             <p className="text-md leading-relaxed">
               We support the independent music scene by bringing a new level of
@@ -35,7 +28,7 @@ export default function Mission() {
               to be accessible, user-friendly, and cost-effective.
             </p>
           </div>
-          <Link href="/" className="mt-6 mx-auto">
+          <Link href="/" className="mt-8 mx-auto">
             <button className="px-4 py-2 text-white bg-black rounded-md border border-gray-700 hover:bg-gray-900">
               Return Home
             </button>
