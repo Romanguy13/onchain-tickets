@@ -51,7 +51,7 @@ export default function LearnMore() {
           <div className="flex flex-col gap-4 items-start max-w-4xl border-l-4 border-blue-500 pl-4 my-4 tracking-wide text-gray-800">
             <h3 className="text-xl font-semibold">Seamless Transaction Flow</h3>
             <p className="text-md">
-              Solana Pay routes funds directly to the organizer's wallet, confirming the wallet as an event attendee.
+              Solana Pay routes funds directly to the organizer&apos;s wallet, confirming the wallet as an event attendee.
             </p>
             <h3 className="text-xl font-semibold">Solana and Phantom</h3>
             <p className="text-md">
