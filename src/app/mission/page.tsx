@@ -2,40 +2,37 @@ import Link from "next/link";
 
 export default function Mission() {
   return (
-    <div className="min-h-screen p-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="min-h-screen p-8 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-white text-black">
       <main className="flex flex-col gap-8 items-center sm:items-start font-[family-name:var(--font-geist-mono)] h-full">
         <div className="flex flex-col items-start max-w-2xl mx-auto h-full justify-between">
-          <h1 className="text-4xl font-bold tracking-widest mb-6">Mission Statement</h1>
-          <div className="flex flex-col gap-4 sm:my-4 tracking-wide">
-            <p className="text-md sm:text-lg leading-relaxed">
-              Our mission is to transform the ticketing industry by harnessing
-              the power of the Solana blockchain to create a seamless, low-cost,
-              and high-performance ticketing platform. Our goal is to directly
-              connect event organizers with their audiences, cutting out the
-              middlemen, reducing fees, and delivering real-time settlements.
+          <h1 className="text-4xl font-bold tracking-widest mb-6 text-gray-900">
+            Mission Statement
+          </h1>
+          <div className="flex flex-col gap-6 sm:my-4 tracking-widest text-gray-800">
+            <p className="text-md leading-relaxed">
+              We want to connect event organizers with their audience directly,
+              minus the headache associated with traditional ticketing
+              platforms. We believe the future of ticketing is on-chain, where
+              funds are routed directly to the event organizer, cutting out all
+              the fees and delays.
             </p>
-            <p className="text-md sm:text-lg leading-relaxed">
+            <p className="text-md leading-relaxed">
               <a
                 href="https://www.globenewswire.com/news-release/2024/07/18/2915545/0/en/Online-Event-Ticketing-Market-Size-is-Projected-to-Reach-US-107-1-Billion-by-2032-Driven-by-Convenience-and-Mobile-Ticketing-Research-by-SNS-Insider.html"
                 className="text-blue-500 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                The online ticketing industry is worth billions,
+                The online ticketing industry is worth billions
               </a>
-              &#20;but it&apos;s plagued by high service fees, slow payout
-              times, and user experiences that often disappoint. For nearly a
-              decade, we&apos;ve seen the challenges that concertgoers face when
-              buying tickets, as well as the repercussions on the artists and
-              organizers behind the scenes.
+              , but plagued with high service fees and slow payouts. We aim to
+              change that by empowering DIY music events with fast and and
+              low-cost ticketing solutions.
             </p>
-            <p className="text-md sm:text-lg leading-relaxed">
-              We&apos;re focused on empowering small-scale, DIY music
-              events—bringing faster payouts to performers, instant
-              confirmations to fans, and easy, secure ticket management for
-              everyone. We aim to support the independent music scene and bring
-              artists and their audiences closer together, making events more
-              accessible, rewarding, and efficient.
+            <p className="text-md leading-relaxed">
+              We support the independent music scene by bringing a new level of
+              transparency and efficiency to ticketing. Our platform is designed
+              to be accessible, user-friendly, and cost-effective.
             </p>
           </div>
           <Link href="/" className="mt-6 mx-auto">
