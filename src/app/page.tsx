@@ -25,8 +25,8 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center font-[family-name:var(--font-geist-mono)]">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl tracking-widest">
-              On-Chain Ticketing
+            <h2 className="text-4xl font-semibold text-gray-900 sm:text-5xl tracking-widest leading-relaxed sm:leading-relaxed">
+              Digital Ticketing Reimagined
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-800">
               A low cost, high performance ticketing system that connects event
