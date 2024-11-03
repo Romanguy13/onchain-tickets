@@ -5,7 +5,7 @@ import { getServerSession } from "next-auth";
 export default async function Footer() {
   const session = await getServerSession();
 
-  let links = [
+  const links = [
     {
       href: "/learn",
       src: "/book.svg",
