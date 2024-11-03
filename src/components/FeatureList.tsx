@@ -18,11 +18,13 @@ const features = [
 
 export default function FeatureList() {
   return (
-    <div className="mx-auto mt-12 sm:mt-24 grid max-w-2xl grid-cols-1 gap-x-10 gap-y-12 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 mb-8">
+    <div className="mx-auto mt-10 sm:mt-24 grid max-w-2xl grid-cols-1 gap-x-10 gap-y-8 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 mb-8">
       {features.map((feature) => (
         <div key={feature.name}>
-          <h3 className="text-lg font-semibold text-gray-900">{feature.name}</h3>
-          <p className="mt-1 text-gray-800">{feature.description}</p>
+          <h3 className="text-lg font-semibold text-gray-900">
+            {feature.name}
+          </h3>
+          <p className="mt-2 text-gray-800">{feature.description}</p>
         </div>
       ))}
     </div>
